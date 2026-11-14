@@ -201,3 +201,20 @@ img{
     border-color: #00ffa8;
     color: #1b2250;
 }
+
+.item{
+    background-color: white;
+    border-left: 5px solid #00ffa8;
+    padding: 18px 22px;
+    margin-bottom: 15px;
+}
+
+.item h3{
+    font-size: 17px;
+    margin-bottom: 6px;
+}
+
+.item p{
+    font-size: 14px;
+    color: #444;
+}
