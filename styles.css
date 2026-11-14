@@ -120,3 +120,31 @@ img{
     font-size: 14px;
     color: #444;
 }
+
+.bloque-verde{
+    background-image: linear-gradient(170deg, white 25%, #00ffa8 25%);
+    padding: 90px 0 80px 0;
+}
+
+.parte{
+    margin-bottom: 90px;
+}
+
+.parte .texto{
+    width: 45%;
+}
+
+.parte .imagen{
+    width: 48%;
+    text-align: center;
+}
+
+.parte h2{
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+.parte p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
