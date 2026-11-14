@@ -74,3 +74,49 @@ img{
     max-width: 650px;
     margin-bottom: 35px;
 }
+
+.seccion{
+    padding: 70px 0;
+}
+
+.gris{
+    background-color: #f0f1f3;
+}
+
+.titulo-centro{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+.fila{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tres{
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.caja{
+    width: 33%;
+    text-align: center;
+}
+
+.caja img{
+    width: 180px;
+    margin-bottom: 15px;
+}
+
+.caja h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 8px;
+}
+
+.caja p{
+    font-size: 14px;
+    color: #444;
+}
