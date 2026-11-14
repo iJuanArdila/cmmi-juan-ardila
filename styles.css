@@ -19,6 +19,7 @@ img{
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .boton{
     display: inline-block;
     padding: 12px 28px;
@@ -30,19 +31,46 @@ img{
 
 .boton-verde{
     background-color: #00ffa8;
-    color:#1b2250
+    color: #1b2250;
 }
 
 .boton-azul{
     background-color: #1b2250;
-    color:white;
+    color: white;
 }
 
 .hero{
-    background-image: linear-gradient(rgba(27,34,80,0.88))
-    ,url(images/banner-bk.jpg);
+    background-image: linear-gradient(rgba(27,34,80,0.88), rgba(27,34,80,0.88)), url(images/banner-bk.jpg);
     background-size: cover;
     background-position: center;
-    color:white;
-    padding: 40 px 0 80px 0;
+    color: white;
+    padding: 40px 0 80px 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.logo{
+    width: 50px;
+}
+
+.link-menu{
+    color: white;
+    text-decoration: none;
+}
+
+.hero h1{
+    font-size: 56px;
+    line-height: 1.15;
+    margin-bottom: 25px;
+    max-width: 650px;
+}
+
+.intro{
+    max-width: 650px;
+    margin-bottom: 35px;
 }
