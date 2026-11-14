@@ -148,3 +148,56 @@ img{
     font-size: 14px;
     margin-bottom: 30px;
 }
+
+.precio{
+    width: 33%;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.precio h4{
+    font-size: 18px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+
+.numero{
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+
+.numero small{
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.precio ul{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.precio li{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.precio .boton{
+    border: 2px solid #1b2250;
+    color: #1b2250;
+}
+
+.destacado{
+    background-color: #1b2250;
+    color: white;
+    border-radius: 4px;
+    padding: 60px 20px;
+}
+
+.destacado .boton{
+    background-color: #00ffa8;
+    border-color: #00ffa8;
+    color: #1b2250;
+}
