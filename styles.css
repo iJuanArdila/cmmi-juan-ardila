@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    line-height: 1.5;
+}
+
+img{
+    max-width: 100%;
+}
+
+.contenedor{
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.boton{
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.boton-verde{
+    background-color: #00ffa8;
+    color:#1b2250
+}
+
+.boton-azul{
+    background-color: #1b2250;
+    color:white;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(27,34,80,0.88))
+    ,url(images/banner-bk.jpg);
+    background-size: cover;
+    background-position: center;
+    color:white;
+    padding: 40 px 0 80px 0;
+}
